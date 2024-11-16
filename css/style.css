@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+ }
+ ol,ul{
+    list-style: none;
+ }
+ 
+ h1,h2,h3,h4,h5,h6,p,span,ol,ul{
+      margin: 0;
+      padding: 0;
+ }
+body{
+    font-family: "arial";
+    background-color: ;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}  
+.counter{
+    max-width: 300px;
+}
+.counter *{
+    width:33.33% ;
+    height:50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
